@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "name": "skeleton-wires",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "@spatie/wires": "^0.3.5",
+    "next": "^8.0.0",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.16.3"
+  },
+  "scripts": {
+    "dev": "next",
+    "now-build": "next build",
+    "format": "prettier \"**/*.{js,json,css}\" --write --ignore-path .gitignore"
+  }
+}
